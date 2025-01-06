@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Plant A",
+            "price": 10,
+            "thumbnail": "/path/to/image.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Plant B",
+            "price": 15,
+            "thumbnail": "/path/to/image2.jpg"
+        }
+    ]
+}
