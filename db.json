@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Aloe Vera",
+            "price": 15,
+            "thumbnail": "/assets/aloe-vera.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Spider Plant",
+            "price": 12,
+            "thumbnail": "/assets/spider-plant.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Snake Plant",
+            "price": 20,
+            "thumbnail": "/assets/snake-plant.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Fiddle Leaf Fig",
+            "price": 50,
+            "thumbnail": "/assets/fiddle-leaf-fig.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Monstera",
+            "price": 25,
+            "thumbnail": "/assets/monstera.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Pothos",
+            "price": 10,
+            "thumbnail": "/assets/pothos.jpg"
+        }
+    ]
+}

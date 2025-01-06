@@ -1,0 +1,68 @@
+/* Header Container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa; /* Light background */
+    border-bottom: 2px solid #ddd; /* Subtle border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for header */
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Dark text for logo */
+    text-transform: uppercase; /* Optional: make the logo text uppercase */
+}
+
+/* Navigation Links */
+.navigation {
+    display: flex;
+    gap: 1rem; /* Adds consistent spacing between links */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000; /* Dark text for links */
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.navigation a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+/* Cart Icon Styles */
+.cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center; /* Align the 🛒 icon and text vertically */
+    font-size: 1.2rem; /* Slightly larger for better visibility */
+}
+
+/* Spacing Between Icon and Text */
+.cart-icon span {
+    margin-left: 0.5rem; /* Space between 🛒 and "Cart (X)" text */
+}
+
+/* Cart Count Badge */
+.cart-count {
+    position: absolute;
+    top: -10px; /* Adjusted for better alignment */
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for emphasis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1.2rem; /* Ensures consistent circular shape */
+    height: 1.2rem;
+}
